@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "826936877163",
+    "firebase_url": "https://paradise-63855.firebaseio.com",
+    "project_id": "paradise-63855",
+    "storage_bucket": "paradise-63855.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826936877163:android:d0055869a053b15784512e",
+        "android_client_info": {
+          "package_name": "com.enzo.paradise"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "826936877163-8v9480fkippvhp6rkfu3ucdbdiq87bn8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.enzo.paradise",
+            "certificate_hash": "f00f9ba90bd6e7a6b4d32f9613de2c51853d4031"
+          }
+        },
+        {
+          "client_id": "826936877163-88nf4a6g8ir00h8ngrr121pcjlquql44.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2O4n3rqb1KcCVvtK-4tSqIbmwo25HFkA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "826936877163-88nf4a6g8ir00h8ngrr121pcjlquql44.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

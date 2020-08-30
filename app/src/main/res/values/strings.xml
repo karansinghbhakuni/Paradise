@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Paradise</string>
+    <string name="drawerOpen">drawerOpen</string>
+    <string name="drawerClose">drawerClose</string>
+</resources>

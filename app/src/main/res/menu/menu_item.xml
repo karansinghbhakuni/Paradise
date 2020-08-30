@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+   >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="Home"/>
+        <item
+            android:id="@+id/profile"
+            android:title="Uttrakhand"/>
+        <item
+            android:id="@+id/posts"
+            android:title="Atrist"/>
+        <item
+            android:id="@+id/news"
+            android:title="About us"/>
+    </group>
+        <group>
+            <item
+                android:id="@+id/logout"
+                android:title="Logout"/>
+
+        </group>
+</menu>

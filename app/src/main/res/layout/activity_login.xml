@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:fontFamily="@font/nunitosanssemibold"
+        android:text="Skip"
+        android:layout_margin="10dp"
+        android:textAllCaps="false"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="@font/nunitosanssemibold"
+            android:textAllCaps="false"
+            android:textSize="53sp"
+            android:text="Hello There!" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunitosansregular"
+            android:textColor="@color/c3"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:text="Welcome back" />
+        <EditText
+            android:id="@+id/editText_email"
+            android:layout_width="match_parent"
+            android:layout_height="48sp"
+            android:fontFamily="@font/nunitosanslight"
+            android:layout_marginTop="30dp"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:hint="Enter your Email"
+            android:background="@drawable/input_field" />
+
+        <EditText
+            android:id="@+id/editText_password"
+            android:layout_width="match_parent"
+            android:layout_height="48sp"
+            android:fontFamily="@font/nunitosanslight"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:hint="Password"
+            android:background="@drawable/input_field"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+
+        <Button
+            android:id="@+id/button_login"
+            android:background="@drawable/button"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30sp"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:fontFamily="@font/nunitosansregular"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:text="Login" />
+
+        <TextView
+            android:id="@+id/textView_help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_gravity="center"
+            android:text="Need Help?"
+            android:fontFamily="@font/nunitosansregular"
+            android:textColor="@color/c3"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="40sp"
+        android:textSize="19sp"
+        android:textColor="@color/c3"
+        android:text="You are not a member? Register"
+        android:textAllCaps="false"
+        android:layout_marginBottom="40sp"
+        android:fontFamily="@font/nunitosanslight"
+        />
+</RelativeLayout>
